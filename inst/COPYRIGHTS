@@ -1,0 +1,41 @@
+stb image headers
+
+Files:
+  inst/include/stbimageheaders/stb_image.h
+  inst/include/stbimageheaders/stb_image_resize2.h
+  inst/include/stbimageheaders/stb_image_write.h
+
+Upstream:
+  https://github.com/nothings/stb
+
+Upstream snapshot:
+  Commit: 31c1ad37456438565541f4919958214b6e762fb4
+  Retrieved: 2026-06-04
+
+Copyright and authorship:
+  Copyright (c) 2017 Sean Barrett.
+  Additional authors and contributors are listed in the upstream header
+  comments, including Jeff Roberts, Jorge L. Rodriguez, and other stb
+  contributors.
+
+License:
+  The upstream headers offer a choice between the MIT license and a
+  public-domain dedication. This R package elects the MIT license
+  alternative. The complete upstream license text is preserved in each
+  header file.
+
+R package integration
+
+Files:
+  DESCRIPTION
+  NAMESPACE
+  README.md
+  NEWS.md
+  man/stbimageheaders-package.Rd
+  tests/test-headers.R
+
+Copyright:
+  Copyright (c) 2026 Tyler Morgan-Wall
+
+License:
+  MIT
