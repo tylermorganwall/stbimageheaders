@@ -15,10 +15,7 @@ Authors@R: c(
            comment = "stb_image_resize2 v2 implementation, optimizations, and SIMD"),
     person("Jorge L.", "Rodriguez",
            role = "aut",
-           comment = "Original stb_image_resize implementation"),
-    person(given = "stb contributors",
-           role = "ctb",
-           comment = "Additional contributors listed in the upstream headers")
+           comment = "Original stb_image_resize implementation")
  )
 Description: Provides selected image-related C/C++ header files from the
     'stb' single-file libraries for use by R packages through the
